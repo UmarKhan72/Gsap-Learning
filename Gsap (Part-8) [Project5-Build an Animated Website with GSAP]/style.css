@@ -126,8 +126,12 @@ nav button {
   background-color: red;
   padding: 40px 120px;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.services h3 {
+  background-color: #9AE975;
 }
 
 /* ---Clients Section End--- */
