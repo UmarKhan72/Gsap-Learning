@@ -22,24 +22,35 @@ main {
   flex-direction: column;
 }
 
-.circle {
+.box {
   height: 300px;
   width: 300px;
   margin: 20px;
-  border-radius: 50%;
-  background: linear-gradient(to right bottom,lightblue,cadetblue);
+  border-radius: 20px;
+  background: linear-gradient(to right bottom,rgb(239, 124, 191),rgb(246, 28, 144));
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: center;
+  color: #000;
 }
 
 button {
-  padding: 20px 100px;
+  padding: 15px 40px;
+  color: #fff;
   border-radius: 50px;
-  background: linear-gradient(lightseagreen, seagreen);
-  border: none;
-  color: #000;
-  font-size: 25px;
+  border: 3px solid #fff;
+  background-color: transparent;
   font-weight: 700;
+  font-size: 35px;
+  cursor: pointer;
 }
 
-button:active {
+/* button:active {
   scale: 0.96;
 }
+
+img {
+  height: 200px;
+} */
